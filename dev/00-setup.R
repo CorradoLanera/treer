@@ -9,6 +9,9 @@ usethis::use_news_md()
 usethis::use_spell_check()
 usethis::use_testthat()
 usethis::use_test("foo") # to be delete.
+usethis::use_tidy_github()
+usethis::use_github_action_check_release()
+
 
 
 usethis::use_package("usethis", type = "Suggests")
@@ -16,6 +19,7 @@ usethis::use_package("devtools", type = "Suggests")
 usethis::use_package("checkmate", type = "Suggests")
 
 
+usethis::use_lifecycle_badge("experimental")
 spelling::spell_check_package()
 # spelling::update_wordlist()
 usethis::git_vaccinate()
